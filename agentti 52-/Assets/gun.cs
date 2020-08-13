@@ -92,7 +92,7 @@ public class gun : MonoBehaviour
         currentAmmo--;
 
         Rigidbody rb = Instantiate(bullet.gameObject, barrel.transform.position, barrel.transform.rotation).GetComponent<Rigidbody>();
-        rb.velocity = barrel.transform.forward * speed;
+        rb.velocity = fpsCam.transform.forward * speed;
         rb.GetComponent<bullet>().damage = damage;
 
         /*RaycastHit hit;
