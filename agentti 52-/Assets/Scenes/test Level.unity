@@ -10142,7 +10142,7 @@ MonoBehaviour:
   impactForce: 30
   bullet: {fileID: 7097496586541633143, guid: c59431d3ae31dd8419fc776b0eebbe2a, type: 3}
   barrel: {fileID: 707922732}
-  speed: 10
+  speed: 50
   mask:
     serializedVersion: 2
     m_Bits: 2615
@@ -59816,7 +59816,7 @@ MonoBehaviour:
   impactForce: 30
   bullet: {fileID: 7097496586541633143, guid: c59431d3ae31dd8419fc776b0eebbe2a, type: 3}
   barrel: {fileID: 1498029986}
-  speed: 10
+  speed: 50
   mask:
     serializedVersion: 2
     m_Bits: 2615

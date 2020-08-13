@@ -96,9 +96,8 @@ public class EnemyGun : MonoBehaviour
         currentAmmo--;
 
         GameObject _bullet = Instantiate(bullet, barrel.transform.position, barrel.transform.rotation);
-        Rigidbody rb = bullet.GetComponent<Rigidbody>();
-        rb.velocity = barrel.transform.forward * speed;
-        bullet.GetComponent<bullet>().damage = damage;
+        _bullet.GetComponent<Rigidbody>().velocity = barrel.transform.forward * speed;
+        _bullet.GetComponent<bullet>().damage = damage;
 
 
 

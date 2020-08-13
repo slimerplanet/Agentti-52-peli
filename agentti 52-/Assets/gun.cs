@@ -10,7 +10,7 @@ public class gun : MonoBehaviour
     public float impactForce = 30;
     public GameObject bullet;
     public Transform barrel;
-    public float speed = 10;
+    public float speed = 100;
 
     public LayerMask mask;
 
@@ -91,10 +91,9 @@ public class gun : MonoBehaviour
 
         currentAmmo--;
 
-        GameObject _bullet = Instantiate(bullet, barrel.transform.position, barrel.transform.rotation);
-        Rigidbody rb = bullet.GetComponent<Rigidbody>();
+        Rigidbody rb = Instantiate(bullet.gameObject, barrel.transform.position, barrel.transform.rotation).GetComponent<Rigidbody>();
         rb.velocity = barrel.transform.forward * speed;
-        bullet.GetComponent<bullet>().damage = damage;
+        rb.GetComponent<bullet>().damage = damage;
 
         /*RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range, mask))
