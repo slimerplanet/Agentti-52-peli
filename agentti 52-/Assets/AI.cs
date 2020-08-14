@@ -14,8 +14,10 @@ public class AI : MonoBehaviour
     public Animator animator;
 
 
+
     public bool idle;
     public bool attacking;
+    public Quaternion offset;
 
     [HideInInspector]
     public bool canSeePlayer;

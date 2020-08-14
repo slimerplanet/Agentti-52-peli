@@ -90,9 +90,9 @@ public class gun : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, mask))
         {
-            Vector3 lookDir = hit.transform.position - barrel.transform.position;
+            Vector3 lookDir = hit.transform.position - transform.position;
             Quaternion q = Quaternion.LookRotation(lookDir);
-            barrel.transform.rotation = Quaternion.RotateTowards(barrel.transform.rotation, q, Time.deltaTime);
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, q, Time.deltaTime);
         }
         muzzleflash.Play();
 

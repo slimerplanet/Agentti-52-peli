@@ -249,7 +249,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 205f5b87f58cb1b41b2a7820601e223f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 33
+  mesh: {fileID: 6835167250885950990}
+  Enemy: 0
 --- !u!54 &1993416179400193436
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -14,14 +14,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/AI.cs
+    - Assets/Enemy/animations/swat.fbx.meta
+    - Assets/Enemy/animations/swat@Idle Crouching Aiming.fbx
+    - Assets/Enemy/animations/swat@Idle Crouching Aiming.fbx.meta
+    - Assets/Enemy/controller.controller
     - Assets/EnemyGun.cs
     - Assets/Pistol/bllet.mat
-    - Assets/Pistol/bllet.mat.meta
+    - Assets/Pistol/bullet enemy.prefab
+    - Assets/Pistol/bullet enemy.prefab.meta
     - Assets/Pistol/bullet.prefab
     - Assets/Scenes/test Level.unity
+    - Assets/bullet.cs
     - Assets/gun.cs
     - 
-    m_Values: 00000000000000
+    m_Values: 0000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
