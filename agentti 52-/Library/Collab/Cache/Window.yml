@@ -15,13 +15,15 @@ MonoBehaviour:
   SimpleSelectedItems:
     m_Keys:
     - Assets/EnemyGun.cs
+    - Assets/Pistol/bllet.mat
+    - Assets/Pistol/bllet.mat.meta
     - Assets/Pistol/bullet.prefab
     - Assets/Scenes/test Level.unity
     - Assets/gun.cs
     - 
-    m_Values: 0000000100
+    m_Values: 00000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
   HistoryPageNumber: 0
-  TabIndex: 1
+  TabIndex: 0

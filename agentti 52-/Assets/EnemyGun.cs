@@ -94,6 +94,9 @@ public class EnemyGun : MonoBehaviour
         muzzleflash.Play();
 
         currentAmmo--;
+        Vector3 lookDir = player.transform.position - barrel.transform.position;
+        Quaternion q = Quaternion.LookRotation(lookDir);
+        barrel.transform.rotation = Quaternion.RotateTowards(barrel.transform.rotation, q, Time.deltaTime * 1);
 
         GameObject _bullet = Instantiate(bullet, barrel.transform.position, barrel.transform.rotation);
         _bullet.GetComponent<Rigidbody>().velocity = barrel.transform.forward * speed;
