@@ -16,9 +16,14 @@ public class bullet : MonoBehaviour
         }
         if (collision.gameObject.GetComponent<Player>() != null && Enemy)
         {
+
             collision.gameObject.GetComponent<Player>().takeDamage(damage);
         }
+        print(collision.gameObject.name);
+
     }
+
+
 
     private void Awake()
     {

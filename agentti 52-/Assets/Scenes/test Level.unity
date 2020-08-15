@@ -44023,6 +44023,7 @@ MonoBehaviour:
   - {fileID: 919132148946928947}
   - {fileID: 919132148946928946}
   - {fileID: 919132148946928948}
+  - {fileID: 8764893666220565536}
 --- !u!114 &919132148946928951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50335,10 +50336,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 33
   range: 100
-  fireRate: 15
+  fireRate: 10
   isAutomatic: 1
   impactForce: 30
-  speed: 60
+  speed: 10
   mask:
     serializedVersion: 2
     m_Bits: 256

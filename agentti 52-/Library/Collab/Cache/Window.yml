@@ -14,21 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/AI.cs
-    - Assets/Enemy/animations/swat.fbx.meta
-    - Assets/Enemy/animations/swat@Idle Crouching Aiming.fbx
-    - Assets/Enemy/animations/swat@Idle Crouching Aiming.fbx.meta
-    - Assets/Enemy/controller.controller
-    - Assets/EnemyGun.cs
-    - Assets/Pistol/bllet.mat
     - Assets/Pistol/bullet enemy.prefab
-    - Assets/Pistol/bullet enemy.prefab.meta
     - Assets/Pistol/bullet.prefab
+    - Assets/Scenes/level 1.meta
+    - Assets/Scenes/level 1/NavMesh-navmesh.asset
+    - Assets/Scenes/level 1/NavMesh-navmesh.asset.meta
     - Assets/Scenes/test Level.unity
+    - Assets/Scenes/test Level/NavMesh-navmesh 2.asset
+    - Assets/Scenes/test Level/NavMesh-navmesh 2.asset.meta
     - Assets/bullet.cs
+    - Assets/door.cs
+    - Assets/door.cs.meta
+    - Assets/doorOpener.cs
+    - Assets/doorOpener.cs.meta
     - Assets/gun.cs
+    - Assets/prefabs/swat.prefab
+    - Assets/prefabs/swat.prefab.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/DynamicsManager.asset
     - 
-    m_Values: 0000000000000000000000000000
+    m_Values: 0000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

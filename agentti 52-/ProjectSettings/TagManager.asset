@@ -17,8 +17,8 @@ TagManager:
   - enviroment
   - enemy
   - enemyHitBox
-  - 
-  - 
+  - bullet
+  - door
   - 
   - 
   - 

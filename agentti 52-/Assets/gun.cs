@@ -87,22 +87,16 @@ public class gun : MonoBehaviour
 
     void Shoot()
     {
-        RaycastHit hit;
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, mask))
-        {
-            Vector3 lookDir = hit.transform.position - transform.position;
-            Quaternion q = Quaternion.LookRotation(lookDir);
-            transform.rotation = Quaternion.RotateTowards(transform.rotation, q, Time.deltaTime);
-        }
+
         muzzleflash.Play();
 
         currentAmmo--;
 
-        Rigidbody rb = Instantiate(bullet.gameObject, barrel.transform.position, barrel.transform.rotation).GetComponent<Rigidbody>();
+       /* Rigidbody rb = Instantiate(bullet.gameObject, barrel.transform.position, barrel.transform.rotation).GetComponent<Rigidbody>();
         rb.velocity = fpsCam.transform.forward * speed;
-        rb.GetComponent<bullet>().damage = damage;
+        rb.GetComponent<bullet>().damage = damage; */
 
-        /*RaycastHit hit;
+        RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range, mask))
         {
             Debug.Log(hit.transform.name);
@@ -116,7 +110,7 @@ public class gun : MonoBehaviour
         if(hit.rigidbody != null)
         {
             hit.rigidbody.AddForce(-hit.normal * impactForce);
-        }*/
+        }
 
     }
 }
