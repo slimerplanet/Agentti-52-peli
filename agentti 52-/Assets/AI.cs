@@ -25,7 +25,7 @@ public class AI : MonoBehaviour
 
     private void Start()
     {
-
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     private void Update()

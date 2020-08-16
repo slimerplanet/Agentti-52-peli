@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/AI.cs
     - Assets/Enemy.cs
+    - Assets/EnemyGun.cs
     - Assets/First_aid_kit.meta
     - Assets/First_aid_kit/First_aid_kit_demoscene.unity
     - Assets/First_aid_kit/First_aid_kit_demoscene.unity.meta
@@ -156,12 +158,14 @@ MonoBehaviour:
     - Assets/prefabs/First_aid_kit_6_Mat.prefab.meta
     - Assets/prefabs/swat.prefab
     - Assets/prefabs/swat.prefab.meta
+    - Assets/spawner.cs
+    - Assets/spawner.cs.meta
     - Packages/manifest.json
     - Packages/packages-lock.json
     - ProjectSettings/DynamicsManager.asset
     - ProjectSettings/TagManager.asset
     - 
-    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
