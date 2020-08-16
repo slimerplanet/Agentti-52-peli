@@ -14,9 +14,131 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
+    - Assets/Enemy.cs
+    - Assets/First_aid_kit.meta
+    - Assets/First_aid_kit/First_aid_kit_demoscene.unity
+    - Assets/First_aid_kit/First_aid_kit_demoscene.unity.meta
+    - Assets/First_aid_kit/materials.meta
+    - Assets/First_aid_kit/materials/First_aid_kit_1_Mat.mat
+    - Assets/First_aid_kit/materials/First_aid_kit_1_Mat.mat.meta
+    - Assets/First_aid_kit/materials/First_aid_kit_2_Mat.mat
+    - Assets/First_aid_kit/materials/First_aid_kit_2_Mat.mat.meta
+    - Assets/First_aid_kit/materials/First_aid_kit_3_Mat.mat
+    - Assets/First_aid_kit/materials/First_aid_kit_3_Mat.mat.meta
+    - Assets/First_aid_kit/materials/First_aid_kit_4_Mat.mat
+    - Assets/First_aid_kit/materials/First_aid_kit_4_Mat.mat.meta
+    - Assets/First_aid_kit/materials/First_aid_kit_5_Mat.mat
+    - Assets/First_aid_kit/materials/First_aid_kit_5_Mat.mat.meta
+    - Assets/First_aid_kit/materials/First_aid_kit_6_Mat.mat
+    - Assets/First_aid_kit/materials/First_aid_kit_6_Mat.mat.meta
+    - Assets/First_aid_kit/meshes.meta
+    - Assets/First_aid_kit/meshes/First_aid_kit.obj
+    - Assets/First_aid_kit/meshes/First_aid_kit.obj.meta
+    - Assets/First_aid_kit/prefabs.meta
+    - Assets/First_aid_kit/prefabs/First_aid_kit_1_Mat.prefab
+    - Assets/First_aid_kit/prefabs/First_aid_kit_1_Mat.prefab.meta
+    - Assets/First_aid_kit/prefabs/First_aid_kit_2_Mat.prefab
+    - Assets/First_aid_kit/prefabs/First_aid_kit_2_Mat.prefab.meta
+    - Assets/First_aid_kit/prefabs/First_aid_kit_3_Mat.prefab
+    - Assets/First_aid_kit/prefabs/First_aid_kit_3_Mat.prefab.meta
+    - Assets/First_aid_kit/prefabs/First_aid_kit_4_Mat.prefab
+    - Assets/First_aid_kit/prefabs/First_aid_kit_4_Mat.prefab.meta
+    - Assets/First_aid_kit/prefabs/First_aid_kit_5_Mat.prefab
+    - Assets/First_aid_kit/prefabs/First_aid_kit_5_Mat.prefab.meta
+    - Assets/First_aid_kit/prefabs/First_aid_kit_6_Mat.prefab
+    - Assets/First_aid_kit/prefabs/First_aid_kit_6_Mat.prefab.meta
+    - Assets/First_aid_kit/textures.meta
+    - Assets/First_aid_kit/textures/1024.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_1_Mat.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_1_Mat/First_aid_kit_1_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_1_Mat/First_aid_kit_1_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_1_Mat/First_aid_kit_1_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_1_Mat/First_aid_kit_1_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_1_Mat/First_aid_kit_1_mat_Normal.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_1_Mat/First_aid_kit_1_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_2_Mat.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_2_Mat/First_aid_kit_2_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_2_Mat/First_aid_kit_2_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_2_Mat/First_aid_kit_2_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_2_Mat/First_aid_kit_2_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_2_Mat/First_aid_kit_2_mat_Normal.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_2_Mat/First_aid_kit_2_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_3_Mat.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_3_Mat/First_aid_kit_3_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_3_Mat/First_aid_kit_3_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_3_Mat/First_aid_kit_3_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_3_Mat/First_aid_kit_3_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_3_Mat/First_aid_kit_3_mat_Normal.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_3_Mat/First_aid_kit_3_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_4_Mat.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_4_Mat/First_aid_kit_4_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_4_Mat/First_aid_kit_4_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_4_Mat/First_aid_kit_4_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_4_Mat/First_aid_kit_4_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_4_Mat/First_aid_kit_4_mat_Normal.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_4_Mat/First_aid_kit_4_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_5_Mat.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_5_Mat/First_aid_kit_5_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_5_Mat/First_aid_kit_5_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_5_Mat/First_aid_kit_5_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_5_Mat/First_aid_kit_5_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_5_Mat/First_aid_kit_5_mat_Normal.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_5_Mat/First_aid_kit_5_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_6_Mat.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_6_Mat/First_aid_kit_6_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_6_Mat/First_aid_kit_6_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_6_Mat/First_aid_kit_6_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_6_Mat/First_aid_kit_6_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_6_Mat/First_aid_kit_6_mat_Normal.png
+    - Assets/First_aid_kit/textures/1024/First_aid_kit_6_Mat/First_aid_kit_6_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/2048.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_1_Mat.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_1_Mat/First_aid_kit_1_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_1_Mat/First_aid_kit_1_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_1_Mat/First_aid_kit_1_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_1_Mat/First_aid_kit_1_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_1_Mat/First_aid_kit_1_mat_Normal.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_1_Mat/First_aid_kit_1_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_2_Mat.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_2_Mat/First_aid_kit_2_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_2_Mat/First_aid_kit_2_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_2_Mat/First_aid_kit_2_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_2_Mat/First_aid_kit_2_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_2_Mat/First_aid_kit_2_mat_Normal.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_2_Mat/First_aid_kit_2_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_3_Mat.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_3_Mat/First_aid_kit_3_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_3_Mat/First_aid_kit_3_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_3_Mat/First_aid_kit_3_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_3_Mat/First_aid_kit_3_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_3_Mat/First_aid_kit_3_mat_Normal.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_3_Mat/First_aid_kit_3_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_4_Mat.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_4_Mat/First_aid_kit_4_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_4_Mat/First_aid_kit_4_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_4_Mat/First_aid_kit_4_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_4_Mat/First_aid_kit_4_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_4_Mat/First_aid_kit_4_mat_Normal.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_4_Mat/First_aid_kit_4_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_5_Mat.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_5_Mat/First_aid_kit_5_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_5_Mat/First_aid_kit_5_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_5_Mat/First_aid_kit_5_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_5_Mat/First_aid_kit_5_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_5_Mat/First_aid_kit_5_mat_Normal.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_5_Mat/First_aid_kit_5_mat_Normal.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_6_Mat.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_6_Mat/First_aid_kit_6_mat_AlbedoTransparency.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_6_Mat/First_aid_kit_6_mat_AlbedoTransparency.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_6_Mat/First_aid_kit_6_mat_MetallicSmoothness.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_6_Mat/First_aid_kit_6_mat_MetallicSmoothness.png.meta
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_6_Mat/First_aid_kit_6_mat_Normal.png
+    - Assets/First_aid_kit/textures/2048/First_aid_kit_6_Mat/First_aid_kit_6_mat_Normal.png.meta
     - Assets/Pistol/bullet enemy.prefab
     - Assets/Pistol/bullet.prefab
     - Assets/Scenes/level 1.meta
+    - Assets/Scenes/level 1.unity
+    - Assets/Scenes/level 1.unity.meta
     - Assets/Scenes/level 1/NavMesh-navmesh.asset
     - Assets/Scenes/level 1/NavMesh-navmesh.asset.meta
     - Assets/Scenes/test Level.unity
@@ -28,13 +150,18 @@ MonoBehaviour:
     - Assets/doorOpener.cs
     - Assets/doorOpener.cs.meta
     - Assets/gun.cs
+    - Assets/healthkit.cs
+    - Assets/healthkit.cs.meta
+    - Assets/prefabs/First_aid_kit_6_Mat.prefab
+    - Assets/prefabs/First_aid_kit_6_Mat.prefab.meta
     - Assets/prefabs/swat.prefab
     - Assets/prefabs/swat.prefab.meta
     - Packages/manifest.json
     - Packages/packages-lock.json
     - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/TagManager.asset
     - 
-    m_Values: 0000000000000000000000000000000000000000
+    m_Values: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
