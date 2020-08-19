@@ -8,8 +8,6 @@ public class gun : MonoBehaviour
     public float fireRate = 15;
     public bool isAutomatic;
     public float impactForce = 30;
-    public GameObject bullet;
-    public Transform barrel;
     public float speed = 100;
 
     public LayerMask mask;
